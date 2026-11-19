@@ -5,7 +5,7 @@ jobs:
   testy_sekretu:
     runs-on: ubuntu-latest
     environment:
-      name: 'Testowe'
+      name: 'Produkcyjne'
     steps:
       - name: Test sekretu repozytorium
         run: echo "Sekret repozytorium to ${{ secrets.Testowy_sekret_repo }}"
